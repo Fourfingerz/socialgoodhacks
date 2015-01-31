@@ -1,4 +1,5 @@
 ActiveAdmin.register Case do
+  permit_params :x, :y, :tweet
 
 
   # See permitted parameters documentation:
